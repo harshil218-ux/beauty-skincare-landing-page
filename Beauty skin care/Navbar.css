@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf7;
+    box-sizing: border-box;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.category-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.category {
+    text-align: center;
+    color: white;
+}
+.category p{
+    color: black;
+}
+.category img {
+    width: 80px; /* Adjust size */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category img:hover {
+    transform: scale(1.1);
+}
+
+.category p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC0CB;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4B0082;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4B0082;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background:#FFC0CB;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.hero p,h1{
+    font-size: 3rem ;
+    font-weight: bolder;
+    color: #4B0082;
+    text-shadow: 2px 2px 2px;
+}
+.hero img{
+    height: 90vh;
+    width: 90dvh;
+}
+.hero-content {
+   
+    padding: 30px;
+    border-radius: 15px;
+   
+}
+.btn {
+    display: inline-block;
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Products */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    aspect-ratio: 4/3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+.product img{
+    width: 150px;
+    height: 150px;
+}
+button.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+/* Testimonials */
+.testimonials {
+    padding: 50px;
+    background-color: #FFC0CB;
+    text-align: center;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Newsletter */
+.newsletter {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    margin-left: 10px;
+    width: 30%;
+}
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+/* Login Page */
+.login-container {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.appointment-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #FFC0CB;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+}
+.appointment-container select{
+    padding: 8px;
+    width: 96%;
+    border-radius: 8px;
+    margin-top: 5px;
+    border-color: #ccc;
+    
+}
+.Book-now{
+    display: flex;
+    padding: 50PX;
+   }
+.Book-appointment{
+    margin-top: 100px;
+    margin-right: 100px;
+   }
+.Book-appointment img{
+    height: 360px;
+    width: 260px;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #4B0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
